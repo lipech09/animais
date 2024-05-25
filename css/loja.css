@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  background-color: lightgreen;
+  font-size: x-large;
+}
+
+.topo{
+  background-color: rgb(101, 253, 101);
+  padding: 3%;
+  width: 100%;
+  text-align: center;
+}
+
+.todos-but{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button{
+    padding:10px 30px;
+    color: #fff;
+    background: #6f116f;
+    border: px solid #000000;
+    border-radius: 7px;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+    font-size: large; 
+    display: inline-block;     
+  }
+  
+  .button:hover{
+    background: #3f0a3f;
+    transition: background 0.5s;
+  }
+
+  .txt{
+    padding-top: 3%;
+    padding-left: 15%;
+    padding-right: 15%;
+    justify-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    background-color: lightgreen;
+  }
+
+.container{
+    background-color: #fff;
+    width: 80%;
+    height: 100%;
+    border-radius: 12px;
+    box-shadow: 5px 5px 12px #000000aa;
+    text-align: justify; 
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.container div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.container img{
+    width: 100%;
+    height: 150px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.container h1{
+    font-size: 1.2rem;
+}
+
+.container h2{
+    font-size: .9rem;
+    color: #434343aa;
+}
+
+.container button{
+    background: #6f116f;
+    height: 30px;
+    border: none;
+    padding: 4px;
+    width: 80%;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.container button:hover{
+    background: #3f0a3f;
+}
+
+.rodapé {
+  background-color: rgb(101, 253, 101);
+  text-align: center;
+  width: 100%;
+  padding: 15px;
+  bottom: 8px;
+  right: 16px;
+  padding-left: 5%;
+  padding-right: 5%;
+}  
+
+#link-topo{
+position: fixed;
+right: 30px;
+bottom: 20px;
+}
