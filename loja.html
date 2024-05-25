@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loja</title>
+    <link rel="stylesheet" href="/css/loja.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+  
+    <div class="topo">
+        <h1 style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">LOJA</h1>
+        <br>
+        <!--COlocar botões de navegação que ficará no topo-->
+        <div class="todos-but">
+            <div>
+                <a href="/index.html"><button class="button">Início</button></a>
+             </div>
+             &nbsp;&nbsp; 
+             <div>
+                <a href="dog.html"><button class="button">Adoção de cachorro</button></a>
+             </div>
+            &nbsp;&nbsp; 
+            <div>
+                <a href="/gato.html"><button class="button">Adoção de gato</button></a>
+            </div>
+            &nbsp;&nbsp;
+            <div>
+                <a href="/loja.html"  ><button class="button" style="background: #3f0a3f;">Loja</button></a>
+            </div>
+            &nbsp;&nbsp;
+            <div>
+             <a href="/login.html" ><button class="button">Login</button></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="txt">
+
+<!--PRODUTO1-->
+
+    <div class="container" style="max-width: 1000px;">
+      <div class="row g-0">
+        <div class="col-md-6">
+          <img src="/img/produto1.jpg" class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-6">
+          <div class="card-body">
+            <h5 class="card-title">Cama</h5>
+            <h2 class="card-text">R$30,00</h2>
+            <button type="button" class="btnComprar" data-bs-toggle="modal"
+              data-bs-target="#camaModal">Saiba mais</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="camaModal" tabindex="-1" aria-labelledby="camaModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="camaModalLabel">Cama para cachorro</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Cama muito macia e com costura reforçada para evitar que seu pet rasgue, o enchimento dela é de silicone da melhor qualidade atualmente<br><br>
+        <img src="/img/produto1.jpg" width="460" height="300">
+      </div>
+      <div class="modal-footer">
+        <h2>R$30,00</h2>
+        <button class="btn btn-success" id="open-modal" type="button" data-bs-dismiss="modal">Comprar</button>
+      </div>
+    </div>
+    </div>
+    </div>
+
+<!--Produto2-->
+
+    <div class="container" style="max-width: 1000px;">
+      <div class="row g-0">
+        <div class="col-md-6">
+          <img src="/img/produto2.jpg" class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-6">
+          <div class="card-body">
+            <h5 class="card-title">Brinquedo</h5>
+            <h2 class="card-text">R$15,00</h2>
+            <button type="button" class="btnComprar" data-bs-toggle="modal"
+              data-bs-target="#macacolModal">Saiba mais</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="macacolModal" tabindex="-1" aria-labelledby="macacolModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="tenisModalLabel">Brinquedo para cachorro</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Esse bicho de pelúcia vai se tornar o melhor amigo do seu pet<br><br>
+        <img src="/img/produto2.jpg" width="460" height="300">
+      </div>
+      <div class="modal-footer">
+        <h2>R$15,00</h2>
+        <button class="btn btn-success" id="open-modal" type="button" data-bs-dismiss="modal">Comprar</button>
+      </div>
+    </div>
+    </div>
+    </div>
+
+<!--PRODUTO3-->
+
+      <div class="container" style="max-width: 1000px;">
+        <div class="row g-0">
+          <div class="col-md-6">
+            <img src="/img/produto3.jpg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-6">
+            <div class="card-body">
+              <h5 class="card-title">Ração</h5>
+              <h2 class="card-text">R$50,00</h2>
+              <button type="button" class="btnComprar" data-bs-toggle="modal"
+                data-bs-target="#grandelModal">Saiba mais</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="grandelModal" tabindex="-1" aria-labelledby="grandelModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="tenisModalLabel">Ração para cães de grande porte</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Ração para animais de grande porte ideal para manter a saúde do seu pet em dia além de dar mais disposição.<br><br>
+          <img src="/img/produto3.jpg" width="460" height="300">
+        </div>
+        <div class="modal-footer">
+          <h2>R$50,00</h2>
+          <button class="btn btn-success" id="open-modal" type="button" data-bs-dismiss="modal">Comprar</button>
+        </div>
+      </div>
+      </div>
+      </div>
+
+<!--PRODUTO4-->
+
+    <div class="container" style="max-width: 1000px;">
+      <div class="row g-0">
+        <div class="col-md-6">
+          <img src="/img/produto4.jpg" class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-6">
+          <div class="card-body">
+            <h5 class="card-title">Brinquedo</h5>
+            <h2 class="card-text">R$05,00</h2>
+            <button type="button" class="btnComprar" data-bs-toggle="modal"
+              data-bs-target="#bolalModal">Saiba mais</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="bolalModal" tabindex="-1" aria-labelledby="bolalModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="tenisModalLabel">Bolinha para cachorro</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Bolinha de borracha com textura para entreter o seu animalzinho<br><br>
+        <img src="/img/produto4.jpg" width="460" height="300">
+      </div>
+      <div class="modal-footer">
+        <h2>R$05,00</h2>
+        <button class="btn btn-success" id="open-modal" type="button" data-bs-dismiss="modal">Comprar</button>
+      </div>
+    </div>
+    </div>
+    </div>
+
+<!--PRODUTO5-->
+
+    <div class="container" style="max-width: 1000px;">
+      <div class="row g-0">
+        <div class="col-md-6">
+          <img src="/img/produto5.jpg" class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-6">
+          <div class="card-body">
+            <h5 class="card-title">Brinquedo</h5>
+            <h2 class="card-text">R$12,00</h2>
+            <button type="button" class="btnComprar" data-bs-toggle="modal"
+              data-bs-target="#tenislModal">Saiba mais</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="tenislModal" tabindex="-1" aria-labelledby="tenislModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="tenisModalLabel">Bolinha para cachorro</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Kit com 3 bolas de tênis para divertir seu cachorrinho<br><br>
+        <img src="/img/produto5.jpg" width="460" height="300">
+      </div>
+      <div class="modal-footer">
+        <h2>R$12,00</h2>
+        <button class="btn btn-success" id="open-modal" type="button" data-bs-dismiss="modal">Comprar</button>
+      </div>
+    </div>
+    </div>
+    </div>
+
+<!--PRODUTO6-->
+
+    <div class="container" style="max-width: 1000px;">
+      <div class="row g-0">
+        <div class="col-md-6">
+          <img src="/img/produto6.jpg" class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-6">
+          <div class="card-body">
+            <h5 class="card-title">Pote</h5>
+            <h2 class="card-text">R$22,00</h2>
+            <button type="button" class="btnComprar" data-bs-toggle="modal"
+              data-bs-target="#PotelModal">Saiba mais</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="PotelModal" tabindex="-1" aria-labelledby="PotelModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="poteModalLabel">Potinho para cachorro</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Potinho de aço inoxidável perfeito para água ou comida do seu animalzinho, evitando a perda excessiva de temperatura<br><br>
+        <img src="/img/produto6.jpg" width="460" height="300">
+      </div>
+      <div class="modal-footer">
+        <h2>R$22,00</h2>
+        <button class="btn btn-success" id="open-modal" type="button" data-bs-dismiss="modal">Comprar</button>
+      </div>
+    </div>
+    </div>
+    </div>
+
+<!--PRODUTO7-->
+
+    <div class="container" style="max-width: 1000px;">
+      <div class="row g-0">
+        <div class="col-md-6">
+          <img src="/img/produto7.jpg" class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-6">
+          <div class="card-body">
+            <h5 class="card-title">Ração</h5>
+            <h2 class="card-text">R$65,00</h2>
+            <button type="button" class="btnComprar" data-bs-toggle="modal"
+              data-bs-target="#pequenolModal">Saiba mais</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="pequenolModal" tabindex="-1" aria-labelledby="pequenolModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="pequenoModalLabel">Ração para cães de pequeno porte</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Ração para animais de pequeno porte ideal para manter a saúde do seu pet em dia além de dar mais disposição.<br><br>
+        <img src="/img/produto7.jpg" width="460" height="300">
+      </div>
+      <div class="modal-footer">
+        <h2>R$65,00</h2>
+        <button class="btn btn-success" id="open-modal" type="button" data-bs-dismiss="modal">Comprar</button>
+      </div>
+    </div>
+    </div>
+    </div>
+
+<!--PRODUTO8-->
+
+    <div class="container" style="max-width: 1000px;">
+      <div class="row g-0">
+        <div class="col-md-6">
+          <img src="/img/produto8.jpg" class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-6">
+          <div class="card-body">
+            <h5 class="card-title">Coleira</h5>
+            <h2 class="card-text">R$30,00</h2>
+            <button type="button" class="btnComprar" data-bs-toggle="modal"
+              data-bs-target="#coleiralModal">Saiba mais</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="coleiralModal" tabindex="-1" aria-labelledby="coleiralModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="coleiraModalLabel">Coleira para cachorro de pequeno porte</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Guia acompanhada de peitoral para passeios seguros e confortáveis para seu pet<br><br>
+        <img src="/img/produto8.jpg" width="460" height="300">
+      </div>
+      <div class="modal-footer">
+        <h2>R$30,00</h2>
+        <button class="btn btn-success" id="open-modal" type="button" data-bs-dismiss="modal">Comprar</button>
+      </div>
+    </div>
+    </div>
+    </div>
+
+<!--PRODUTO9-->
+    
+    <div class="container" style="max-width: 1000px;">
+      <div class="row g-0">
+        <div class="col-md-6">
+          <img src="/img/produto9.jpg" class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-6">
+          <div class="card-body">
+            <h5 class="card-title">Caixa</h5>
+            <h2 class="card-text">R$35,00</h2>
+            <button type="button" class="btnComprar" data-bs-toggle="modal"
+              data-bs-target="#caixalModal">Saiba mais</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="caixalModal" tabindex="-1" aria-labelledby="caixalModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="caixaModalLabel">Caixa de transporte para animais de pequeno porte</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Caixa de transporte para levar seu pet com segurança para onde você quiser<br><br>
+        <img src="/img/produto9.jpg" width="460" height="300">
+      </div>
+      <div class="modal-footer">
+        <h2>R$35,00</h2>
+        <button class="btn btn-success" id="open-modal" type="button" data-bs-dismiss="modal">Comprar</button>
+      </div>
+    </div>
+    </div>
+    </div>
+
+  <div style="text-align: center;"></div>
+
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+
+    <div class="rodapé">
+        <table style="width: 100%;">
+            <tr>
+                <td class="rodapé" style="width: 33%;"><h2>Ajude nosso projeto:  PIX(61)99999-9999</h2></td>
+                <td style="width: 33%;"><img src="/img/13-34-17-270-512-unscreen.gif" width="150"></td>
+                <td style="width: 33%;"><a href="https://www.instagram.com/" target="_blank"><img src="/img/icone insta.png" width="50"></a>
+                    &nbsp;
+                    <a href="https://www.whatsapp.com/" target="_blank"><img src="/img/icone WhatsApp.webp" width="50"></a>
+                    &nbsp;
+                    <a href="https://www.tiktok.com/en/" target="_blank"><img src="/img/icone tiktok.webp" width="50"></a></td>
+            </tr>
+        </table>
+    </div>        
+    <a href="#" id="link-topo"><img src="img/pata.png" width="40px"></a>
+
+</body>
+</html>

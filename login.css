@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'inter', sans-serif;
+    text-align: justify;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #6f116f;
+}
+
+.container{
+width: 80%;
+height: 80vh;
+display: flex;
+box-shadow: 5pc 5px 10px rgba(0, 0, 0, .212);
+}
+
+.img{
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    background-color: purple;
+    padding: 4rem;
+    position: relative;
+    display: inline-block;
+}
+
+.img img {
+    width: 31rem;
+}
+
+.form{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #e5f8e5;
+    padding: 3rem;
+}
+
+.farm-heaer{
+     margin-bottom: 3rem;
+     display: flex;
+     justify-content: space-between;
+}
+
+.input-group{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    padding: 1rem 0;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+}
+
+.input-box input {
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #000;
+}
+
+.input-box input:hover {
+    background-color: rgb(212, 236, 191);
+}
+
+.input-box input:focus-visible {
+    outline: 1px solid rgb(103, 235, 103);
+}
+
+.input-box label,
+.gender-title h6{
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: black;
+}
+
+.input-box input::placeholder {
+    color: rgb(33, 33, 33);
+}
+
+.gender-group{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.62rem;
+    padding: 0 0.5rem;
+}
+
+.gender-input {
+    display: flex;
+    align-items: center;
+}
+
+.gender-input input {
+    margin-right: 0.35rem;
+}
+
+.gender-input label {
+    font-size: 0.81rem;
+    font-weight: 600;
+    color: rgb(33, 33, 33);
+}
+
+.continue-button button {
+    width: 100%;
+    margin-top: 2.5rem;
+    border: none;
+    background-color: Lightgreen ;
+    padding: 0.62rem;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.continue-button button:hover {
+background-color: rgb(103, 235, 103);
+}
+
+.continue-button button a {
+    text-decoration: none;
+    font-size: 0.93rem;
+    font-weight: 500;
+    color: #fff;
+}
+
+.back-button button {
+    width: 100%;
+    margin-top: 2.5rem;
+    border: none;
+    background-color: Lightgreen ;
+    padding: 0.62rem;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+}
+
+.back-button button:hover {
+background-color: rgb(103, 235, 103);
+}
+
+.back-button button a {
+    text-decoration: none;
+    font-size: 0.93rem;
+    font-weight: 500;
+}
